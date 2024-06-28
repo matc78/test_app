@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_1/card_drawer_game.dart';
 import 'styles.dart';  // Importez le fichier des styles
 import 'pyramide_w_cards.dart';
 import 'roulette_game.dart';
@@ -44,6 +45,16 @@ class FirstPage extends StatelessWidget {
                 );
               },
               child: const Text('Le Jeu des Problèmes'),
+            ),
+            ElevatedButton(
+              style: AppStyles.elevatedButtonStyle,  // Utilisez le style de bouton défini
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CardDrawerGame()),
+                );
+              },
+              child: const Text('Tireur de Carte Aléatoire'),
             ),
           ],
         ),

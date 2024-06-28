@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => FirstPage()),
                 );
               },
-              child: const Text('I have cards'),
+              child: const Text('Clique ici'),
             ),
             ElevatedButton(
               style: AppStyles.elevatedButtonStyle,  // Utilisez le style de bouton défini
@@ -47,7 +47,7 @@ class MyHomePage extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => SecondPage()),
                 );
               },
-              child: const Text('I have no cards'),
+              child: const Text('Pas la'),
             ),
           ],
         ),

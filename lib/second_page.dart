@@ -6,10 +6,10 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Games'),
+        title: const Text('Page à golmon'),
       ),
-      body: Center(
-        child: Text('This is the Second Page'),
+      body: const Center(
+        child: Text('t con ou quoi'),
       ),
     );
   }
