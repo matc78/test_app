@@ -60,6 +60,12 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/pyramide.png
+    - assets/images/dice-png-1.png
+    - assets/images/dice-png-2.png
+    - assets/images/dice-png-3.png
+    - assets/images/dice-png-4.png
+    - assets/images/dice-png-5.png
+    - assets/images/dice-png-6.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
