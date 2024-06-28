@@ -30,6 +30,15 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.build/
+.packages
+.idea/
+.vscode/
+android/.gradle
+android/app/build
+android/local.properties
+ios/Pods
+ios/Runner.xcworkspace
 
 # Symbolication related
 app.*.symbols
