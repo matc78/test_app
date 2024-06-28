@@ -51,5 +51,13 @@ List<Question> questions = [
   Question(text: "Qui finira sa vie le + riche ?", sex: 'neutral', difficulty: 'easy'),
   Question(text: "Qui finira sa vie le + mieux ?", sex: 'neutral', difficulty: 'easy'),
 
+  Question(text: "Qui mange le plus ?", sex: 'neutral', difficulty: 'easy'),
+  Question(text: "Qui mange le plus de bite ?", sex: 'neutral', difficulty: 'extreme'),
+
+  Question(text: "Qui bronze le moins bien ?", sex: 'neutral', difficulty: 'easy'),
+  Question(text: "Qui est le plus raciste ?", sex: 'neutral', difficulty: 'extreme'),
+
+  Question(text: "Qui aime le plus draguer ?", sex: 'neutral', difficulty: 'easy'),
+  Question(text: "Qui aime le plus pécho ?", sex: 'neutral', difficulty: 'extreme'),
   // Ajoutez d'autres questions ici
 ];
