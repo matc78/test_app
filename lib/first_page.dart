@@ -3,7 +3,7 @@ import 'package:test_1/card_drawer_game.dart';
 import 'package:test_1/dice_game.dart';
 import 'styles.dart';  // Importez le fichier des styles
 import 'pyramide_w_cards.dart';
-import 'roulette_game.dart';
+import 'wheel_selection_page.dart'; // Assurez-vous d'importer la page de sélection
 import 'player_input.dart';  // Importez le fichier player_input.dart
 
 class FirstPage extends StatelessWidget {
@@ -32,7 +32,7 @@ class FirstPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => RouletteGame()),
+                  MaterialPageRoute(builder: (context) => WheelSelectionPage()), // Naviguez vers la page de sélection
                 );
               },
               child: const Text('Roulette de BZ'),
