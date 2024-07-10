@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_1/customize_wheel_page.dart';
+import 'package:test_1/roulette_game/customize_wheel_page.dart';
 import 'customize_options_page.dart';
 
 class WheelSelectionPage extends StatelessWidget {

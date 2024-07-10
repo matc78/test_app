@@ -3,8 +3,8 @@ import 'package:test_1/card_drawer_game.dart';
 import 'package:test_1/dice_game.dart';
 import 'styles.dart';  // Importez le fichier des styles
 import 'pyramide_w_cards.dart';
-import 'wheel_selection_page.dart'; // Assurez-vous d'importer la page de sélection
-import 'player_input.dart';  // Importez le fichier player_input.dart
+import 'roulette_game/wheel_selection_page.dart'; // Assurez-vous d'importer la page de sélection
+import 'probleme_game/player_input.dart';  // Importez le fichier player_input.dart
 
 class FirstPage extends StatelessWidget {
   @override
