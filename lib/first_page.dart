@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:test_1/card_drawer_game.dart';
 import 'package:test_1/dice_game.dart';
+import 'drink_manager.dart';
 import 'styles.dart';  // Importez le fichier des styles
 import 'pyramide_w_cards.dart';
 import 'roulette_game/wheel_selection_page.dart'; // Assurez-vous d'importer la page de sélection
 import 'probleme_game/player_input.dart';  // Importez le fichier player_input.dart
 import 'clock_game.dart'; // Importez le nouveau fichier du jeu
-import 'counter_page.dart'; // Importez le fichier du compteur
 
 class FirstPage extends StatelessWidget {
   @override
@@ -84,10 +84,10 @@ class FirstPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => CounterPage()),
+                  MaterialPageRoute(builder: (context) => DrinkManagerPage()),
                 );
               },
-              child: const Text('Compteur de Boissons'),
+              child: const Text('Compteur de Boissons V2'),
             ),
           ],
         ),
