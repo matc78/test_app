@@ -6,7 +6,7 @@ import 'pyramide_w_cards.dart';
 import 'roulette_game/wheel_selection_page.dart'; // Assurez-vous d'importer la page de sélection
 import 'probleme_game/player_input.dart';  // Importez le fichier player_input.dart
 import 'clock_game.dart'; // Importez le nouveau fichier du jeu
-
+import 'counter_page.dart'; // Importez le fichier du compteur
 
 class FirstPage extends StatelessWidget {
   @override
@@ -79,11 +79,19 @@ class FirstPage extends StatelessWidget {
               },
               child: const Text('L\'Horloge'),
             ),
+            ElevatedButton(
+              style: AppStyles.elevatedButtonStyle,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CounterPage()),
+                );
+              },
+              child: const Text('Compteur de Boissons'),
+            ),
           ],
         ),
       ),
     );
   }
 }
-
-
