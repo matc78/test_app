@@ -161,7 +161,7 @@ class _DrinkManagerPageState extends State<DrinkManagerPage> {
                       Navigator.of(context).pop();
                       _showAddDrinkDialog(isPure: true);
                     },
-                    child: Text('Alcool PUR '),
+                    child: Text('Alcool PUR'),
                   ),
                   ElevatedButton(
                     onPressed: () {
@@ -180,6 +180,7 @@ class _DrinkManagerPageState extends State<DrinkManagerPage> {
   }
 
   void _showAddDrinkDialog({required bool isPure}) {
+    _selectedMixer = 'Rien'; // Reset mixer for each new drink
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -410,5 +411,4 @@ class _DrinkManagerPageState extends State<DrinkManagerPage> {
       ),
     );
   }
-
 }
